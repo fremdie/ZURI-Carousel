@@ -21,8 +21,7 @@ This is a solution to the  ZURIxI4G INTERNSHIP - Introduction to JavaScript assi
 
 Users should be able to:
 
-- View the optimal layout for the page depending on their device's screen size
-- See hover states for all interactive elements on the page
+- See hover state for directional icons
 
 
 
@@ -40,12 +39,12 @@ Users should be able to:
 - Vanilla JavaScript
 
 ### What I learned
-With this assignment, i learnt basic JS, and how to build a carousel.
+With this assignment, I learnt basic JS, and how to build a carousel.
 
 
 ### Continued development
 
-Learna and practice more JavaScript by completing assignments and building projects.
+Learn and practice more JavaScript by completing assignments and building projects.
 
 
 ### Useful resources
