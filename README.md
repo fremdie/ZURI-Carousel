@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution](https://github.com/fremdie/ZURI-Carousel)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/fremdie/ZURI-Carousel)
+- Live Site URL: [Live Site](https://zuri-carousel-f3234.netlify.app/)
 
 ## My process
 
