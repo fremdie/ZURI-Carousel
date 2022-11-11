@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box
+}
+body {
+  font-family: Verdana, sans-serif; 
+  margin: 0;
+}
+.carouselSlide {
+  display: none
+}
+img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Carousel container */
+.carousel-container {
+  width: 500px;
+  max-width: 1000px;
+  position: relative;
+  margin: 11px auto;
+}
+
+/* Previous and Next buttons */
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  opacity: 0; /* this is how i was able to hide the icons */
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  cursor: pointer;
+  opacity: 1; /* this is how i was able to subsequently display the icons on hover */
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* indicators */
+.carousel-indicator {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .carousel-indicator:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
